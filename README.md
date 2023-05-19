@@ -1,4 +1,5 @@
 This is the extension of the simple shell project!
+
 #Original Shell
 In the original shell project, this is what was achieved:
 The parse_command function tokenizes the command string into individual arguments, storing them in the cmdTokens array.
@@ -20,3 +21,5 @@ hello: Prompts the user for their name and greets them.
 marco: Prints "polo."
 Forking and Executing External Commands: If the command is not a built-in command, the code forks a new process using fork() and executes the command using execvp(). The parent process waits for the child process to complete using wait(NULL).
 Input and Quit Handling: The code uses cin.getline() to read the user input command into the cmd array. It checks if the command is equal to "quit" using the isQuit function and exits the shell if true.
+
+https://drive.google.com/file/d/1Np2P7vSgaS6I2aD3PIxv7uiKvZBhlY01/view?usp=sharing
